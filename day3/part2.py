@@ -9,7 +9,7 @@ for line in read_data:
     num = []
     start_pos = 0
     max_range= 12
-    for pick_number in range(max_range):
+    for pick_number in range(12):
         current_index = len(digits) - max_range
         substring = digits[start_pos:current_index+1]
         max_num = max(substring)
